@@ -1,0 +1,18 @@
+package com.korit.study.ch03;
+
+import java.io.InputStream;
+import java.util.Scanner;
+
+public class Input01 {
+    public static void main(String[] args) {
+        InputStream inputStream = System.in;
+        Scanner s = new Scanner(inputStream);
+
+        String str = s.nextLine();
+        System.out.println("입력값 : " + str);
+        String address = s.nextLine();
+        System.out.printf("주소 : %s   \n", address);
+        System.out.println(s.next());
+
+    }
+}

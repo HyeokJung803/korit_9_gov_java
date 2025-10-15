@@ -1,0 +1,15 @@
+package com.korit.study.ch05;
+
+public class Array02 {
+    public static void main(String[] args) {
+        int[][] nums = {{1,2,3}, {4,5,6}, {7,8,9}};
+        int[] num2 = nums[1];
+        int num = num2[1];
+        System.out.println( nums[1][1]);
+
+        int num3 = new int[][] {{1,2,3}, {4,5,6}, {7,8,9}}[1][1];
+
+
+
+    }
+}
