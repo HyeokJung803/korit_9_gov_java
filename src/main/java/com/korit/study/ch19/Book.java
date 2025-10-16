@@ -2,11 +2,11 @@ package com.korit.study.ch19;
 
 import java.util.Objects;
 
-public class Car {
+public class Book {
     private String model;
     private String color;
 
-    public Car(String model, String color) {
+    public Book(String model, String color) {
         this.model = model;
         this.color = color;
     }
@@ -21,10 +21,10 @@ public class Car {
 
     @Override
     public boolean equals(Object o) {
-        if (o.getClass() != Car.class) {
+        if (o.getClass() != Book.class) {
             return false;
         }
-        Car car = (Car) o;
+        Book car = (Book) o;
 //        if (!(o instanceof Car car)) return false;
         return Objects.equals(model, car.model) && Objects.equals(color, car.color);
     }
