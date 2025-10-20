@@ -5,10 +5,11 @@ public class SingletonMain {
         ClassA a = new ClassA();
         ClassB b = new ClassB();
         ClassC c = new ClassC();
+//        Singleton singleton = new Singleton("test");
 
         a.run();
         b.run();
         c.run();
-    }
 
+    }
 }

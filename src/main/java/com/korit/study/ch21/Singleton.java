@@ -30,10 +30,10 @@ public class Singleton {
     }
 
     public void changeData() {
-        System.out.println("데이터를 변경: " + data);
+        System.out.println("데이터 변경: " + data);
     }
 
     public void deleteData() {
-        System.out.println("데이터를 삭제: " + data);
+        System.out.println("데이터 삭제: " + data);
     }
 }
