@@ -2,7 +2,6 @@ package com.korit.study.ch22.service;
 
 import com.korit.study.ch22.dto.SigninDto;
 import com.korit.study.ch22.entity.User;
-import com.korit.study.ch22.repository.UserRepository;
 import com.korit.study.ch22.util.PasswordEncoder;
 
 import java.util.Objects;
