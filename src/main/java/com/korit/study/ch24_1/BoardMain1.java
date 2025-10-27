@@ -1,9 +1,9 @@
-package com.korit.study.ch24;
+package com.korit.study.ch24_1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class BoardMain {
+public class BoardMain1 {
     public static void main(String[] args) {
         // 게시판
         /**
