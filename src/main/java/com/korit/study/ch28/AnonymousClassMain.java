@@ -20,10 +20,11 @@ public class AnonymousClassMain {
 
             @Override
             public int fx2() {
-                return 0;
+                return num2.get() + 1000;
             }
         };
 
         b.fx1();
+        b.fx2();
     }
 }
