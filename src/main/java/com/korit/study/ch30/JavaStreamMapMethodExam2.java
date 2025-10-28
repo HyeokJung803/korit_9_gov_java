@@ -157,10 +157,10 @@ public class JavaStreamMapMethodExam2 {
                 "01055556666",
                 "01011112222"
         );
-//        List<String> typePhoneNumber = phoneNumbers.stream()
-//                .map(gettype -> gettype.replaceAll())
-//                .toList();
-
-
+        List<String> typePhoneNumber = phoneNumbers.stream()
+                .map(find -> find.substring(0,3) + "-" +
+                        find.substring(3,7) + "-" +
+                        find.substring(7)).toList();
+        System.out.println(typePhoneNumber);
     }
 }
