@@ -142,5 +142,6 @@ public class LambdaInterface {
                 .collect(Collectors.toList())
                 .getFirst();
         System.out.println(foundName);
+        System.out.println();
     }
 }
