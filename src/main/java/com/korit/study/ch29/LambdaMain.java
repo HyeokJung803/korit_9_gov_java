@@ -11,7 +11,7 @@ package com.korit.study.ch29;
  *      이때 리턴 값이 있는 경우 return 키워드도 같이 생략하여야한다.
  *      중괄호와 return 키워드는 세트.
  */
-
+@FunctionalInterface
 interface LambdaStudy {
     int calc(int a, int b, int c);
 }
